@@ -13,16 +13,27 @@ LineMarks(x_initial,x_end,y_pos,marks,mark_names,mark_size,line_style,line_width
 where (see image below):
 
 x_initial: Initial position for common horizontal line
+
 x_end: Final position for common horizontal line
+
 y_pos: Vertical position for common horizontal line
+
 marks: Float (int or double) array with all the horizontal values for the vertical ticks
+
 mark_names: Cell array with the labels for each mark (use '' for empty)
+
 mark_size: Markers size (font size)
+
 line_style: Line style for all the lines ('-' solid line, '--' dashed line, ':' dotted line, '-.' dash-dot line)
+
 line_width: Line width for all the lines
+
 tick_width: Vertical tick width
+
 mark_color: Color for both markers and lines
+
 mark_dx: Horizontal spacing between lines and labels
+
 mark_dy: Vertical spacing between lines and labels
 
 ![LineMarks explanation](https://user-images.githubusercontent.com/26829946/130294044-8206779f-c43d-441c-bb60-2b9264a36a59.PNG)
