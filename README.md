@@ -38,9 +38,13 @@ mark_dy: Vertical spacing between lines and labels
 # Example:
 
 y = linspace(-3,3,6); stem(y,'LineWidth',3,'Color','k'); % Creating and plotting some data
+
 xlim([0.5 6.5]); ylim([-4.5 4.5]); 
+
 LineMarks(4,6,3.8,[4,5,6],{'\alpha','\beta','\gamma'},20,'-.',2,0.5,'r',0,0.4) % LineMarks #1 (red)
+
 LineMarks(1,3,-3.8,[1,2,3],{'A','B','C'},20,'-',2,-0.5,'b',0,-0.4) % LineMarks #2 (blue)
+
 LineMarks(3,4,-2,[3,4],{'d',''},40,'--',2,-0.5,'#07b023',0.5,-0.6) % LineMarks #3 (green)
 
 ![LineMarks_Example](https://user-images.githubusercontent.com/26829946/130294114-2a708fb9-96e8-46df-9a2e-54b08813fc18.png)
